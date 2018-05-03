@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 from face import views as face_view
 from body import views as body_view
-from core import views as core_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),

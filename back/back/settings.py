@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'face.apps.FaceConfig',
     'body.apps.BodyConfig',
-    'core.apps.CoreConfig',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'safehome.urls'
+ROOT_URLCONF = 'back.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'safehome.wsgi.application'
+WSGI_APPLICATION = 'back.wsgi.application'
 
 
 # Database
